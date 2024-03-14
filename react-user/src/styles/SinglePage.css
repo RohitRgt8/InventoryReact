@@ -1,0 +1,73 @@
+.bgGrey {
+    background-color: #f8f9fc;
+  }
+  
+  .sinLih {
+    line-height: 3rem;
+    position: left;
+   
+    width: 100vw;
+    text-align: center;
+  }
+  
+  .singlePageMainPic {
+    margin-top:35px;
+    width: auto;
+    height: auto;
+    margin-left: 170px;
+   
+  }
+  
+  .productInfo {
+    position: relative;
+    top: 1rem; 
+    
+    width: calc(100vw - 37rem); 
+  }
+  
+  .sp {
+    position: relative;
+    left: 10px;
+  }
+  .namePriceSP {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+  }
+
+  
+  .l1rem {
+    line-height: 1rem;
+  }
+  
+  .spBtnHold {
+   
+    margin-top: 1rem; 
+  }
+  
+  .spAddTOCart {
+    background-color: black;
+    width: 14rem;
+    color: white;
+    height: 3rem;
+    transition: all 400ms ease;
+    left: 20px
+  }
+  
+  .spAddTOCart:hover {
+    transform: scale(1.08);
+  }
+  
+  .spfooterHold {
+    margin-top: 120px; 
+    width: 100vw;
+    overflow-y: hidden;
+  }
+
+  .fotBg {
+    background-color: #3a3430; 
+    color: white;
+    border-top: none;
+}
+  

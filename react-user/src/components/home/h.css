@@ -1,0 +1,94 @@
+
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  body{
+    height: 100%;
+    background-image: url('../../assets/brick2 1 1.png');
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    /* opacity: 0.5; */
+  }
+  
+  img{
+    height: 70px;
+    width: 185px;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+  nav{
+    align-items: inline;
+    display: flex;
+    justify-content: space-between;
+    /* position: sticky; */
+    /* background-color: rgba(240, 240, 240, 0.8); */
+    
+  }
+  .menu{
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+    padding-right: 3%;
+    display: flex;
+  }
+  .menu a{
+    padding: 1rem;
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+  }
+  .menu a:hover{
+    color: white;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid white;
+  }
+  .intro{
+    font-family: arial;
+    font-size: 50px;
+    margin-top: 225px;
+    margin-left: 90px;
+    width: 450px;
+    height: 200px;
+    color: white;
+    word-spacing: 5%;
+  }
+  
